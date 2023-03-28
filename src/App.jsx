@@ -1,14 +1,13 @@
-import { Footer } from './components/Footer';
-import { Header } from './components/Header';
-
 import './App.css';
+// import { Aula1 } from './pages/Aula1';
+import { Aula2 } from './pages/Aula2';
 
 function App() {
   return (
-    <div className='card'>
-      <Header />
-
-      <Footer />
+    <div>
+      <h1>Aulas React</h1>
+      {/* <Aula1 /> */}
+      <Aula2 />
     </div>
   );
 }
