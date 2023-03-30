@@ -1,0 +1,21 @@
+.card {
+  display: flex;
+  flex-direction: column;
+  /* flex: 1; */
+  padding: 20px;
+  gap: 10px;
+  background-color: rgb(79, 78, 78);
+  border-radius: 10px;
+  width: 150px;
+}
+
+.card-image {
+  display: flex;
+  flex: 1;
+  justify-content: center;
+}
+
+.card-title {
+  margin: 0;
+  text-align: center;
+}
